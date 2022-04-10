@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: white;
+}
+aside {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+}
+.navegacao {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+.navegacao li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.navegacao a {
+  text-decoration: none;
+  color: rgb(15, 20, 25);
+}
+.navegacao a:hover {
+  background-color: rgba(15, 25, 20, 0.1);
+  border-radius: 5px;
+}
+.usuario {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.usuario h1 {
+  color: rgb(15, 20, 25);
+}
+.usuario h2 {
+  color: rgb(83, 100, 113);
+  font-size: 14px;
+}
+.usuario p {
+  color: rgb(15, 20, 25);
+}
+.usuarioedit {
+  flex-direction: row;
+  justify-content: space-between;
+}
+button {
+  height: 20px;
+  width: 80px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.localizacao {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  margin-left: 12px;
+  gap: 5px;
+}
+.estatisticas {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  margin-left: 12px;
+  gap: 5px;
+}
+.tzeet {
+  color: rgb(15, 20, 25);
+}
+.info a {
+  text-decoration: none;
+  color: rgb(83, 100, 113);
+}
+.info span {
+  color: rgb(15, 20, 25);
+  font-weight: bold;
+}
+.info a:hover {
+  font-weight: bold;
+}
+.publi a {
+  text-decoration: none;
+  color: rgb(15, 20, 25);
+}
+.publi a:hover {
+  font-weight: bold;
+}
+.date {
+  color: rgb(83, 100, 113);
+}
+.acao a {
+  border-radius: 5px;
+  text-decoration: none;
+  color: rgb(83, 100, 113);
+}
+.acao :first-child:hover {
+  background: rgba(29, 155, 240, 0.1);
+  color: rgba(29, 155, 240, 1);
+}
+.acao :nth-child(2):hover {
+  background: rgba(29, 155, 240, 0.1);
+  color: rgba(0, 186, 124, 1);
+}
+.acao :nth-child(3):hover {
+  background: rgba(29, 155, 240, 0.1);
+  color: rgba(29, 155, 240, 1);
+}
+.acao :last-child:hover {
+  background: rgba(249, 24, 128, 0.1);
+  color: rgba(249, 24, 128, 1);
+}
