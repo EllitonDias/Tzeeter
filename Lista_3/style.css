@@ -1,0 +1,142 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: white;
+}
+header {
+  margin-top: 20px;
+  padding-left: 28px;
+}
+aside {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+}
+.navegacao {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+.navegacao li {
+  margin-bottom: 5px;
+}
+
+.navegacao a {
+  text-decoration: none;
+  color: rgb(15, 20, 25);
+}
+.iconReply:hover {
+  background: rgba(29, 155, 240, 0.1);
+  color: rgba(29, 155, 240, 0.466);
+  border-radius: 5px;
+}
+.iconLike:hover {
+  background: rgba(249, 24, 128, 0.1);
+  color: rgba(249, 24, 129, 0.466);
+  border-radius: 5px;
+}
+.iconRetweet:hover {
+  background: rgba(29, 155, 240, 0.1);
+  color: rgba(0, 186, 124, 0.466);
+  border-radius: 5px;
+}
+.iconShare:hover {
+  background: rgba(29, 155, 240, 0.1);
+  color: rgba(0, 186, 124, 0.466);
+  border-radius: 5px;
+}
+.reply:hover {
+  background: rgba(29, 155, 240, 0.1);
+  color: rgba(29, 155, 240, 1);
+  border-radius: 5px;
+}
+.retweet:hover {
+  background: rgba(29, 155, 240, 0.1);
+  color: rgba(0, 186, 124, 1);
+  border-radius: 5px;
+}
+.like:hover {
+  background: rgba(249, 24, 128, 0.1);
+  color: rgba(249, 24, 128, 1);
+  border-radius: 5px;
+}
+.share:hover {
+  background: rgba(29, 155, 240, 0.1);
+  color: rgba(0, 186, 124, 1);
+  border-radius: 5px;
+}
+.navegacao a:hover {
+  background-color: rgba(15, 25, 20, 0.1);
+  border-radius: 5px;
+}
+.usuario {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.usuario h1 {
+  color: rgb(15, 20, 25);
+}
+.usuario h2 {
+  color: rgb(83, 100, 113);
+  font-size: 14px;
+}
+.usuario p {
+  color: rgb(15, 20, 25);
+}
+.usuarioedit {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.localizacao {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  margin-left: 5px;
+  gap: 5px;
+}
+.estatisticas {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  margin-left: 5px;
+  gap: 5px;
+}
+.tzeet {
+  color: rgb(15, 20, 25);
+}
+.info a {
+  text-decoration: none;
+  color: rgb(83, 100, 113);
+}
+.info span {
+  color: rgb(15, 20, 25);
+  font-weight: bold;
+}
+.info a:hover {
+  font-weight: bold;
+}
+.publi a {
+  text-decoration: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: rgb(15, 20, 25);
+}
+.publi a:hover {
+  font-weight: bold;
+  background-color: rgb(145, 167, 184);
+}
+.date {
+  color: rgb(83, 100, 113);
+}
+.acao a {
+  border-radius: 5px;
+  text-decoration: none;
+  color: rgb(83, 100, 113);
+}
