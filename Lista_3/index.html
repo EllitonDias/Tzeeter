@@ -15,7 +15,7 @@
 <body>
   <div class="container">
     <div class="row">
-      <div class="col-3 col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-2">
+      <div class="col-3 col-xxl-3 col-xl-3 col-lg-3 col-md-2 col-sm-2">
         <header>
           <img src="/img/tiziu.png" width="30" alt="Pássaro preto logo" />
         </header>
@@ -26,54 +26,49 @@
               <div>
                 <li class="d-md-none d-lg-block d-sm-none d-md-block d-none d-sm-block"><a href="home"><i
                       class="bi bi-house"></i> Home</a></li>
-                <li class="d-lg-none d-xl-block d-xl-none d-xxl-block d-xxl-none"><a href=""><i
-                      class="bi bi-house"></i></a></li>
+                <a href=""><i class="bi bi-house d-lg-none d-xl-block d-xl-none d-xxl-block d-xxl-none"></i></a>
               </div>
               <div>
                 <li class="d-md-none d-lg-block d-sm-none d-md-block d-none d-sm-block"><a href="explore"><i
                       class="bi bi-hash"></i> Explore</a></li>
-                <li class="d-lg-none d-xl-block d-xl-none d-xxl-block d-xxl-none"><a href=""><i
-                      class="bi bi-hash"></i></a></i></li>
+                <a href=""><i class="d-lg-none d-xl-block d-xl-none d-xxl-block d-xxl-none bi bi-hash"></i></a></i></li>
               </div>
               <div>
                 <li class="d-md-none d-lg-block d-sm-none d-md-block d-none d-sm-block">
                   <a href="notification"><i class="bi bi-bell"></i> Notification</a>
                 </li>
-                <li class="d-lg-none d-xl-block d-xl-none d-xxl-block d-xxl-none"><a href=""><i
-                      class="bi bi-bell"></i></a></li>
+                  <a href=""><i class="d-lg-none d-xl-block d-xl-none d-xxl-block d-xxl-none bi bi-bell"></i></a>
               </div>
               <div>
                 <li class="d-md-none d-lg-block d-sm-none d-md-block d-none d-sm-block">
                   <a href="messages"><i class="bi bi-envelope"></i> Messages</a>
                 </li>
-                <li class="d-lg-none d-xl-block d-xl-none d-xxl-block d-xxl-none"><a href=""><i
-                      class="bi bi-envelope"></i></a></li>
+                 <a href=""><i class="d-lg-none d-xl-block d-xl-none d-xxl-block d-xxl-nonebi bi-envelope"></i></a>
               </div>
               <div>
                 <li class="d-md-none d-lg-block d-sm-none d-md-block d-none d-sm-block">
                   <a href="profile"><i class="bi bi-person-fill"></i> Profile</a>
                 </li>
-                <li class="d-lg-none d-xl-block d-xl-none d-xxl-block d-xxl-none "><a href="#"></a><i
-                    class="bi bi-person-fill"></i></li>
+                <a href="#"><i
+                  class="d-lg-none d-xl-block d-xl-none d-xxl-block d-xxl-none bi bi-person-fill"></i></a>
               </div>
               <div>
                 <li class="d-md-none d-lg-block d-sm-none d-md-block d-none d-sm-block"><a href="more"><i
                       class="bi bi-three-dots"></i> More</a></li>
-                <li class="d-lg-none d-xl-block d-xl-none d-xxl-block d-xxl-none"><a href="#"></a><i
-                    class="bi bi-three-dots"></i></a> </li>
+                <a href="#"><i
+                  class="d-lg-none d-xl-block d-xl-none d-xxl-block d-xxl-none bi bi-three-dots"></i></a>
               </div>
               <div>
                 <li class="d-md-none d-lg-block d-sm-none d-md-block d-none d-sm-block">
                   <button type="button" class="btn btn-primary">Tzeet</button>
                 </li>
-                <li class="d-lg-none d-xl-block d-xl-none d-xxl-block d-xxl-none"><button type="button"
-                    class="btn btn-primary rounded-circle"><i class="bi bi-chat"></i></button></li>
+                <button type="button" class="d-lg-none d-xl-block d-xl-none d-xxl-block d-xxl-none btn btn-primary rounded-circle"><i class="bi bi-chat"></i></button>
               </div>
             </ul>
           </nav>
         </aside>
       </div>
-      <div class="col-6 col-xxl-6 col-xl-6 col-lg-6 col-md-9 col-sm-10">
+      <div class="col-6 col-xxl-6 col-xl-6 col-lg-6 col-md-10 col-sm-10">
         <section class="usuario">
           <div class="usuarioedit position-relative">
             <img class="rounded-circle"
@@ -152,11 +147,9 @@
       <div
         class="col-3 col-xxl-3 col-xl-3 col-lg-3 col-md-0 col-sm-0 d-md-none d-lg-block d-sm-none d-md-block d-none d-sm-block">
         <div class="bg-light input-group rounded">
-          <input type="search" class="form-control rounded" placeholder="UserName" aria-label="Search"
+          <span class=" bg-light input-group-text" id="basic-addon1"><i class=" bi bi-search text-decoration-none text-secondary"></i></span>
+          <input type="search" class="form-control rounded" placeholder="UserName " aria-label="Search" 
             aria-describedby="search-addon" />
-          <span class="input-group-text border-0" id="search-addon">
-            <a href=""><i class="bi bi-search text-decoration-none text-secondary"></i></a>
-          </span>
         </div>
         <div class="card bg-light d-flex flex-column" style="width: 18rem">
           <h3 class="card-title">Talvez você curta</h3>
