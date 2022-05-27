@@ -8,25 +8,23 @@ body {
 }
 header {
   margin-top: 20px;
-  padding-left: 28px;
+  margin-left: 35px;
 }
-aside {
-  margin-top: 5px;
-  margin-bottom: 5px;
-  display: flex;
-}
+
 .navegacao {
   list-style: none;
   display: flex;
   flex-direction: column;
 }
 .navegacao li {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
-
 .navegacao a {
   text-decoration: none;
   color: rgb(15, 20, 25);
+}
+.navegacao span{
+  margin-left: 2px;
 }
 .iconReply:hover {
   background: rgba(29, 155, 240, 0.1);
@@ -72,10 +70,16 @@ aside {
   background-color: rgba(15, 25, 20, 0.1);
   border-radius: 5px;
 }
+.navegacao button{
+  border-radius: 50px;
+}
 .usuario {
   display: flex;
   flex-direction: column;
   margin-bottom: 10px;
+}
+.usuario button{
+  border-radius: 50px;
 }
 .usuario h1 {
   color: rgb(15, 20, 25);
@@ -95,16 +99,12 @@ aside {
 .localizacao {
   text-decoration: none;
   list-style: none;
-  display: flex;
-  margin-left: 5px;
-  gap: 5px;
+  gap: 8px;
 }
 .estatisticas {
   text-decoration: none;
   list-style: none;
-  display: flex;
-  margin-left: 5px;
-  gap: 5px;
+  gap: 8px;
 }
 .tzeet {
   color: rgb(15, 20, 25);
@@ -113,12 +113,20 @@ aside {
   text-decoration: none;
   color: rgb(83, 100, 113);
 }
+.info li{
+  text-decoration: none;
+  list-style: none;
+  gap: 8px;
+}
 .info span {
   color: rgb(15, 20, 25);
   font-weight: bold;
 }
 .info a:hover {
   font-weight: bold;
+}
+.publi{
+  margin-bottom: 10px;
 }
 .publi a {
   text-decoration: none;
@@ -139,4 +147,12 @@ aside {
   border-radius: 5px;
   text-decoration: none;
   color: rgb(83, 100, 113);
+}
+.carde a{
+    margin-top: 25px;
+    margin-left: 5px;
+}
+.mm a{
+  margin-left: 10px;
+  
 }
