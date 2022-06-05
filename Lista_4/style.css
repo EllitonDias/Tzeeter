@@ -6,6 +6,10 @@
 body {
   background-color: white;
 }
+header {
+  margin-top: 20px;
+  margin-left: 35px;
+}
 
 .navegacao {
   list-style: none;
@@ -19,7 +23,7 @@ body {
   text-decoration: none;
   color: rgb(15, 20, 25);
 }
-.navegacao span{
+.navegacao span {
   margin-left: 2px;
 }
 .iconReply:hover {
@@ -66,21 +70,15 @@ body {
   background-color: rgba(15, 25, 20, 0.1);
   border-radius: 5px;
 }
-.navegacao button{
+.navegacao button {
   border-radius: 50px;
-}
-.usuariop{
-  list-style: none;
-}
-.bordaprof{
-  border-bottom: none;
 }
 .usuario {
   display: flex;
   flex-direction: column;
   margin-bottom: 10px;
 }
-.usuario button{
+.usuario button {
   border-radius: 50px;
 }
 .usuario h1 {
@@ -93,27 +91,19 @@ body {
 .usuario p {
   color: rgb(15, 20, 25);
 }
-.usuariop{
-  flex-direction: row;
-  justify-content: space-between;
-}
-
 .usuarioedit {
   flex-direction: row;
   justify-content: space-between;
 }
-.multimedia{
-  text-decoration: none;
-  list-style: none;
-  gap: 8px;
-}
 
 .localizacao {
+  padding-left: 0rem;
   text-decoration: none;
   list-style: none;
   gap: 8px;
 }
 .estatisticas {
+  padding-left: 0rem;
   text-decoration: none;
   list-style: none;
   gap: 8px;
@@ -121,11 +111,12 @@ body {
 .tzeet {
   color: rgb(15, 20, 25);
 }
+
 .info a {
   text-decoration: none;
   color: rgb(83, 100, 113);
 }
-.info li{
+.info li {
   text-decoration: none;
   list-style: none;
   gap: 8px;
@@ -137,7 +128,7 @@ body {
 .info a:hover {
   font-weight: bold;
 }
-.publi{
+.publi {
   margin-bottom: 10px;
 }
 .publi a {
@@ -160,11 +151,55 @@ body {
   text-decoration: none;
   color: rgb(83, 100, 113);
 }
-.carde a{
-    margin-top: 25px;
-    margin-left: 5px;
+.multimedia {
+  padding-left: 0%;
+  gap: 10px;
+  list-style: none;
 }
-.mm a{
-  margin-left: 10px;
-  
+.multimedia li a i {
+  color: black;
+}
+.contador a i {
+  color: black;
+}
+.multimedia i:hover {
+  background-color: rgb(29, 155, 240);
+  border-radius: 5px;
+}
+
+#coment,
+#coment1 {
+  width: 250;
+  height: auto;
+  resize: none;
+  border: 0 none;
+  outline: 0;
+}
+.mm {
+  padding-bottom: 10px;
+  margin-left: 5px;
+  padding-left: 0px;
+}
+.all-form {
+  width: 100%;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+.all-form button {
+  border-radius: 50px;
+}
+.carde a {
+  margin-top: 20px;
+  margin-left: 5px;
+}
+.text-form {
+  border-bottom: 1px solid;
+  margin-bottom: 10px;
+}
+.text-form a {
+  text-decoration: none;
+}
+.contador i:hover {
+  background-color: rgb(29, 155, 240);
+  border-radius: 5px;
 }
