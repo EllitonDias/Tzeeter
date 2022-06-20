@@ -1,0 +1,264 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: white;
+}
+header {
+  margin-top: 20px;
+  margin-left: 35px;
+}
+
+.navegacao {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+.navegacao li {
+  margin-bottom: 10px;
+}
+.navegacao a {
+  text-decoration: none;
+  color: rgb(15, 20, 25);
+}
+.navegacao span {
+  margin-left: 2px;
+}
+.iconReply:hover {
+  background: rgba(29, 155, 240, 0.1);
+  color: rgba(29, 155, 240, 0.466);
+  border-radius: 5px;
+}
+.iconLike:hover {
+  background: rgba(249, 24, 128, 0.1);
+  color: rgba(249, 24, 129, 0.466);
+  border-radius: 5px;
+}
+.iconRetweet:hover {
+  background: rgba(29, 155, 240, 0.1);
+  color: rgba(0, 186, 124, 0.466);
+  border-radius: 5px;
+}
+.iconShare:hover {
+  background: rgba(29, 155, 240, 0.1);
+  color: rgba(0, 186, 124, 0.466);
+  border-radius: 5px;
+}
+.reply:hover {
+  background: rgba(29, 155, 240, 0.1);
+  color: rgba(29, 155, 240, 1);
+  border-radius: 5px;
+}
+.retweet:hover {
+  background: rgba(29, 155, 240, 0.1);
+  color: rgba(0, 186, 124, 1);
+  border-radius: 5px;
+}
+.like:hover {
+  background: rgba(249, 24, 128, 0.1);
+  color: rgba(249, 24, 128, 1);
+  border-radius: 5px;
+}
+.share:hover {
+  background: rgba(29, 155, 240, 0.1);
+  color: rgba(0, 186, 124, 1);
+  border-radius: 5px;
+}
+.navegacao a:hover {
+  background-color: rgba(15, 25, 20, 0.1);
+  border-radius: 5px;
+}
+.navegacao button {
+  border-radius: 50px;
+}
+.usuario {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.usuario button {
+  border-radius: 50px;
+}
+.usuario h1 {
+  color: rgb(15, 20, 25);
+}
+.usuario h2 {
+  color: rgb(83, 100, 113);
+  font-size: 14px;
+}
+.usuario p {
+  color: rgb(15, 20, 25);
+}
+.usuarioedit {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.localizacao {
+  padding-left: 0rem;
+  text-decoration: none;
+  list-style: none;
+  gap: 8px;
+}
+.estatisticas {
+  padding-left: 0rem;
+  text-decoration: none;
+  list-style: none;
+  gap: 8px;
+}
+.tzeet {
+  color: rgb(15, 20, 25);
+}
+
+.info a {
+  text-decoration: none;
+  color: rgb(83, 100, 113);
+}
+.info li {
+  text-decoration: none;
+  list-style: none;
+  gap: 8px;
+}
+.info span {
+  color: rgb(15, 20, 25);
+  font-weight: bold;
+}
+.info a:hover {
+  font-weight: bold;
+}
+.publi {
+  margin-bottom: 10px;
+}
+.publi a {
+  text-decoration: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: rgb(15, 20, 25);
+}
+.publi a:hover {
+  font-weight: bold;
+  background-color: rgb(145, 167, 184);
+}
+.date {
+  color: rgb(83, 100, 113);
+}
+.acao a {
+  border-radius: 5px;
+  text-decoration: none;
+  color: rgb(83, 100, 113);
+}
+.multimedia {
+  padding-left: 0%;
+  gap: 10px;
+  list-style: none;
+}
+.multimedia li a i {
+  color: black;
+}
+.contador a i {
+  color: black;
+}
+.multimedia i:hover {
+  background-color: rgb(29, 155, 240);
+  border-radius: 5px;
+}
+
+#coment,
+#coment1 {
+  width: 250;
+  height: auto;
+  resize: none;
+  border: 0 none;
+  outline: 0;
+}
+.mm {
+  padding-bottom: 10px;
+  margin-left: 5px;
+  padding-left: 0px;
+}
+.all-form {
+  width: 100%;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+.all-form button {
+  border-radius: 50px;
+}
+.carde a {
+  margin-top: 20px;
+  margin-left: 5px;
+}
+.text-form {
+  border-bottom: 1px solid;
+  margin-bottom: 10px;
+}
+.text-form a {
+  text-decoration: none;
+}
+.contador i:hover {
+  background-color: rgb(29, 155, 240);
+  border-radius: 5px;
+}
+.alinhamento {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(80, 80, 80);
+}
+.card-login{
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.alinhamento-2 {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  background-color: rgb(80, 80, 80);
+}
+.form-login img {
+  padding-top: 15px;
+  margin: auto;
+  display: block;
+}
+.form-login  button {
+  margin-top: 20px;
+  margin-left: 1rem;
+  border-radius: 15px;
+  width: 24rem;
+}
+.form-login h6 {
+  padding-bottom: 15px;
+}
+.fundo {
+  background-color: rgb(36, 35, 35);
+}
+.form-cadastro{
+  font-size: small;
+}
+.form-cadastro button{
+  border-radius: 15px;
+  margin-top: 20px;
+  width: 24rem;
+}
+.selects{
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.se-inscrever{
+  border-top: 1 solid;
+}
+.titulo-criar{
+  border-bottom: 1px solid;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+.titulo-criar a{
+ text-decoration: none;
+ font-size: large;
+ margin-top: 15px;
+ color: rgb(24, 24, 24);
+}
